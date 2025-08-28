@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #21010c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header------------------------------------------------*/
+@media (min-width: 1200px){
+    header{
+        height: 100px;
+    }
+    .logonav{
+        height: 100px;
+        padding-left: 6px;
+    }
+    .logonav h1{
+        padding-left: 27px;
+    }
+    .navegacion{
+        justify-content: center;
+    }
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(../IMG/Fondo\ granos\ de\ café.jpg);
+    background-size: cover;
+    padding: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.logonav{
+    display: flex;
+    align-items: center;
+}
+
+.logonav h1{
+    color: rgb(255, 199, 178);
+}
+
+.navlink{
+    padding-right: 15px;
+    align-items: center;
+}
+
+.navlink-icon{
+    position: absolute;
+    top: 35px;
+}
+
+nav > a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 60px;
+}
+
+nav > a:hover{
+    color: coral;
+    text-shadow: 7px 4px 10px #000000;
+}
+
+/* Carrusel -----------------------------------------*/
+
+.CarruselG {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-bottom: 8px solid #21010c;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* main ------------------------------------------------*/
+
+main{
+    background: rgb(181, 177, 255);
+    background: linear-gradient(90deg, rgb(181, 177, 255) 0%, rgba(255,133,101,1) 100%);
+    border-top: 7px solid #21010c;
+}
+
+/* Logo y eslogan ITA ------------rgb(153, 92, 66)--------------------*/
+
+.escudo-ita{
+    max-width: 320px;
+}
+
+.infoita{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #191947;
+    padding: 20px;
+}
+
+.infoita p{
+    color: #21010c; 
+    font-size: 18px;
+}
+
+/* Titulo e información INICIO--------------------------*/
+
+.title-infocafe{
+    color: #21010c;
+}
+
+.infocafe{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.infocafe h3{
+    color: #811111;
+}
+
+.infocafe h4{
+    color: #610e23;
+    padding: 30px;
+}
+
+.informacion{
+    padding-top: 60px;
+}
+
+.informacion h2{
+    color: #21010c;
+    padding: 30px;
+}
+
+.informacion p{
+    color: #610e23;
+}
+
+.inf{
+    padding: 30px;
+}
+
+/* Boton de tienda -------------------------------*/
+
+.productos{
+    text-align: center;
+}
+
+.botonpro{
+    border-style: none;
+    background: none;
+}
+
+.botonpro > a{
+    background-color: #21010c; 
+    color: rgb(255, 255, 255); 
+    font-size: 30px; 
+    padding: 25px 50px; 
+    border: 7px rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 7px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    box-shadow: 0 0 10px 1px #000000;
+} 
+
+.botonpro > a:hover{
+    background-color: rgb(221, 164, 164); 
+    color: #21010c; 
+    border: 7px #21010c;
+    border-style: solid;
+    box-shadow: 0 0 10px 4px #000000;
+}
+
+/* Footer y menu--------------------------------*/
+
+footer{
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 80px;
+}
+
+.mmenu{
+    padding-bottom: 7px;
+}
+
+.mmenu > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.mmenu > a:hover{
+    color: coral;
+    text-shadow: 7px 4px 10px #000000;
+}
+
+.fmenu{
+    display: flex;
+    background-color: #21010c;
+}
+
+.infopag{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.coontet-foo{
+    display: inline-block;
+    text-align: center;
+
+}
+
+.coontet-foo h4{
+    padding-bottom: 5px;
+}
+
+.coontet-foo img{
+    padding-right: 1px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px #000000;
+    
+}
+
+.coontet-foo > a{
+    color: rgb(79, 89, 180);
+    text-decoration: none; 
+}
+
+.coontet-foo > a:hover{
+    color: rgb(34, 34, 197);
+    text-shadow: 7px 4px 10px #000000;
+}
+
+.foot{
+    background-color: #000000;
+    color: rgb(255, 156, 120);
+    font-size: 11px;
+    text-align: center;
+    padding: 15px;
+}
+
+/* TIENDA----------------------------------------------------------------------------------- */
+
+main h1{
+    font-size: 70px;
+    padding: 20px 0 0 0;
+    text-align: center;
+    color: #fff;
+}
+
+main h3{
+    font-size: 50px;
+    padding: 30px 30px;
+    text-align: center;
+    color: #21010c;
+}
+
+.tienda{
+    background: url(..//IMG/Fondo\ 1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    padding: 20px;
+}
+
+.producto{
+    margin: 150px 100px 100px 100px;
+    padding: 20px 20px;
+    border: 5px solid #fff;
+    border-radius: 16px;
+    background-color: #21010c9c;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.producto >a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.producto >a:hover{
+    text-decoration: underline;
+}
+
+.bolsas{
+    border-radius: 15px;
+    height: 250px;
+}
+
+.descripcionpro{
+    padding: 20px 20;
+    display: flex;
+}
+
+.desc{
+    margin: 50px 10px 70px 100px;
+}
+
+.desc h2{
+    padding-bottom: 20px;
+    color: #21010c;
+}
+
+.desc h4{
+    color: #000000;
+}
+
+/* Contacto----------------------------------------------------------------------------------- */
+
+.contacto{
+    text-align: center;
+}
+
+/* Sobre nosotros------------------------------------------------------------------------------*/
+
+.sobre-nosotros{
+    text-align: center;
+    margin: 30px;
+}
+
